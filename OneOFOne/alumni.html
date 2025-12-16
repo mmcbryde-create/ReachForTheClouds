@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>OneGoal — Alumni & Student Connect</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header role="banner" aria-label="Main header">
+    <div class="brand">
+      <div class="cap" aria-hidden="true">🎓</div>
+      <div>OneGoal.</div>
+    </div>
+
+    <div class="menu-toggle">☰</div>
+
+    <nav class="nav">
+      <a class="nav-link" href="home.html">Home</a>
+      <a class="nav-link" href="student.html">For Students</a>
+      <a class="nav-link active" href="alumni.html">Alumni Connect</a>
+      <a class="nav-link" href="https://www.onegoal.org/join-us/nyt-communities-fund/">Join Us</a>
+
+      <div class="nav-right" style="display: contents;">
+
+        <a class="btn btn-primary" href="https://fundraise.givesmart.com/form/88WX6g?vid=1n4abt">Donate</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="social-layout">
+    <!-- Left Sidebar: User Profile / Nav -->
+    <aside class="sidebar-left">
+      <div class="user-mini-profile">
+        <div class="user-avatar">
+          <span>🎓</span>
+        </div>
+        <h3>Welcome, Student</h3>
+        <p>Future Leader</p>
+        <div class="stats-row">
+          <div class="stat">
+            <span class="stat-num">0</span>
+            <span class="stat-label">Connections</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">12</span>
+            <span class="stat-label">Views</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar-nav">
+        <a href="#" class="active"><span class="icon">🏠</span> Feed</a>
+        <a href="#"><span class="icon">👥</span> My Network</a>
+        <a href="#"><span class="icon">🔖</span> Saved Posts</a>
+        <a href="#"><span class="icon">📅</span> Events</a>
+      </div>
+    </aside>
+
+    <!-- Center: Feed -->
+    <section class="feed-container">
+      <!-- Create Post (Visual only) -->
+      <div class="create-post-card">
+        <div class="input-wrapper">
+          <div class="user-avatar-small">🎓</div>
+          <input type="text" placeholder="Share your goals or ask a question..." />
+        </div>
+        <div class="post-actions">
+          <button class="action-btn">📷 Photo</button>
+          <button class="action-btn">🎥 Video</button>
+          <button class="btn btn-primary post-btn">Post</button>
+        </div>
+      </div>
+
+      <!-- Feed Posts -->
+      <div class="feed-stream">
+
+        <!-- Post 1 -->
+        <div class="feed-post fade-in-up">
+          <div class="post-header">
+            <img src="https://i.pravatar.cc/150?img=32" alt="Jordan Daniels" class="poster-img" />
+            <div class="poster-info">
+              <h4>Jordan Daniels</h4>
+              <p>Software Engineer @ Microsoft • 2h ago</p>
+            </div>
+            <button class="more-btn">•••</button>
+          </div>
+          <div class="post-content">
+            <p>Remember: The only bad code is the code you didn't write today. Keep practicing, keep building! 💻🚀
+              #CodingLife #OneGoal</p>
+          </div>
+          <div class="post-stats">
+            <span>❤️ 24 Likes</span>
+            <span>💬 5 Comments</span>
+          </div>
+          <div class="post-actions-bar">
+            <button class="feed-action"><span class="icon">👍</span> Like</button>
+            <button class="feed-action"><span class="icon">💬</span> Comment</button>
+            <button class="feed-action"><span class="icon">↗️</span> Share</button>
+          </div>
+        </div>
+
+        <!-- Post 2 -->
+        <div class="feed-post fade-in-up delay-100">
+          <div class="post-header">
+            <img src="https://i.pravatar.cc/150?img=45" alt="Maria Lopez" class="poster-img" />
+            <div class="poster-info">
+              <h4>Maria Lopez</h4>
+              <p>Registered Nurse @ Northwestern • 5h ago</p>
+            </div>
+            <button class="more-btn">•••</button>
+          </div>
+          <div class="post-content">
+            <p>Big shoutout to all the students pushing through finals week! You are capable of more than you know. Take
+              breaks, drink water, and crush it! 💪📚</p>
+            <img
+              src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              alt="Study vibes" class="post-image" />
+          </div>
+          <div class="post-stats">
+            <span>❤️ 45 Likes</span>
+            <span>💬 12 Comments</span>
+          </div>
+          <div class="post-actions-bar">
+            <button class="feed-action"><span class="icon">👍</span> Like</button>
+            <button class="feed-action"><span class="icon">💬</span> Comment</button>
+            <button class="feed-action"><span class="icon">↗️</span> Share</button>
+          </div>
+        </div>
+
+        <!-- Post 3 -->
+        <div class="feed-post fade-in-up delay-200">
+          <div class="post-header">
+            <img src="https://i.pravatar.cc/150?img=12" alt="Devin Carter" class="poster-img" />
+            <div class="poster-info">
+              <h4>Devin Carter</h4>
+              <p>Business Analyst @ JPMorgan • 1d ago</p>
+            </div>
+            <button class="more-btn">•••</button>
+          </div>
+          <div class="post-content">
+            <p>Networking isn't just about asking for favors. It's about building genuine relationships. Who did you
+              connect with today? 🤝</p>
+          </div>
+          <div class="post-stats">
+            <span>❤️ 18 Likes</span>
+            <span>💬 3 Comments</span>
+          </div>
+          <div class="post-actions-bar">
+            <button class="feed-action"><span class="icon">👍</span> Like</button>
+            <button class="feed-action"><span class="icon">💬</span> Comment</button>
+            <button class="feed-action"><span class="icon">↗️</span> Share</button>
+          </div>
+        </div>
+
+        <!-- Post 4 -->
+        <div class="feed-post fade-in-up delay-300">
+          <div class="post-header">
+            <img src="https://i.pravatar.cc/150?img=22" alt="Aisha Thompson" class="poster-img" />
+            <div class="poster-info">
+              <h4>Aisha Thompson</h4>
+              <p>Engineering @ Argonne • 2d ago</p>
+            </div>
+            <button class="more-btn">•••</button>
+          </div>
+          <div class="post-content">
+            <p>Just finished a robotics workshop with some amazing high school students! The future of engineering is
+              bright. 🤖✨ #STEM #Mentorship</p>
+            <img
+              src="https://images.unsplash.com/photo-1581092921461-eab62e97a782?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              alt="Robotics Workshop" class="post-image" />
+          </div>
+          <div class="post-stats">
+            <span>❤️ 32 Likes</span>
+            <span>💬 8 Comments</span>
+          </div>
+          <div class="post-actions-bar">
+            <button class="feed-action"><span class="icon">👍</span> Like</button>
+            <button class="feed-action"><span class="icon">💬</span> Comment</button>
+            <button class="feed-action"><span class="icon">↗️</span> Share</button>
+          </div>
+        </div>
+
+        <!-- Post 5 -->
+        <div class="feed-post fade-in-up delay-300">
+          <div class="post-header">
+            <img src="https://i.pravatar.cc/150?img=1" alt="Malik Robinson" class="poster-img" />
+            <div class="poster-info">
+              <h4>Malik Robinson</h4>
+              <p>Finance @ JPMorgan • 3d ago</p>
+            </div>
+            <button class="more-btn">•••</button>
+          </div>
+          <div class="post-content">
+            <p>Financial literacy tip of the week: Start saving early, even if it's just a little bit. Compound interest
+              is your best friend! 💰📈</p>
+          </div>
+          <div class="post-stats">
+            <span>❤️ 56 Likes</span>
+            <span>💬 15 Comments</span>
+          </div>
+          <div class="post-actions-bar">
+            <button class="feed-action"><span class="icon">👍</span> Like</button>
+            <button class="feed-action"><span class="icon">💬</span> Comment</button>
+            <button class="feed-action"><span class="icon">↗️</span> Share</button>
+          </div>
+        </div>
+
+        <!-- Post 6 -->
+        <div class="feed-post fade-in-up delay-300">
+          <div class="post-header">
+            <img src="https://i.pravatar.cc/150?img=65" alt="Sofia Martinez" class="poster-img" />
+            <div class="poster-info">
+              <h4>Sofia Martinez</h4>
+              <p>Social Work @ LSW • 4d ago</p>
+            </div>
+            <button class="more-btn">•••</button>
+          </div>
+          <div class="post-content">
+            <p>Mental health matters. Don't be afraid to reach out for support when you need it. We are all in this
+              together. ❤️🧠</p>
+          </div>
+          <div class="post-stats">
+            <span>❤️ 89 Likes</span>
+            <span>💬 22 Comments</span>
+          </div>
+          <div class="post-actions-bar">
+            <button class="feed-action"><span class="icon">👍</span> Like</button>
+            <button class="feed-action"><span class="icon">💬</span> Comment</button>
+            <button class="feed-action"><span class="icon">↗️</span> Share</button>
+          </div>
+        </div>
+
+        <!-- Post 7 -->
+        <div class="feed-post fade-in-up delay-300">
+          <div class="post-header">
+            <img src="https://i.pravatar.cc/150?img=15" alt="Ethan Walker" class="poster-img" />
+            <div class="poster-info">
+              <h4>Ethan Walker</h4>
+              <p>Engineering @ Tesla • 5d ago</p>
+            </div>
+            <button class="more-btn">•••</button>
+          </div>
+          <div class="post-content">
+            <p>Excited to announce that our team just launched a new sustainable energy project! 🌍⚡ Innovation is key
+              to a greener future.</p>
+            <img
+              src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              alt="Sustainable Energy" class="post-image" />
+          </div>
+          <div class="post-stats">
+            <span>❤️ 102 Likes</span>
+            <span>💬 18 Comments</span>
+          </div>
+          <div class="post-actions-bar">
+            <button class="feed-action"><span class="icon">👍</span> Like</button>
+            <button class="feed-action"><span class="icon">💬</span> Comment</button>
+            <button class="feed-action"><span class="icon">↗️</span> Share</button>
+          </div>
+        </div>
+
+        <!-- Post 8 -->
+        <div class="feed-post fade-in-up delay-300">
+          <div class="post-header">
+            <img src="https://i.pravatar.cc/150?img=14" alt="Jade Williams" class="poster-img" />
+            <div class="poster-info">
+              <h4>Jade Williams</h4>
+              <p>Psychology @ Research • 1w ago</p>
+            </div>
+            <button class="more-btn">•••</button>
+          </div>
+          <div class="post-content">
+            <p>Reading a fascinating study on cognitive development today. Always learning, always growing! 📖🧠
+              #Psychology #Research</p>
+          </div>
+          <div class="post-stats">
+            <span>❤️ 41 Likes</span>
+            <span>💬 6 Comments</span>
+          </div>
+          <div class="post-actions-bar">
+            <button class="feed-action"><span class="icon">👍</span> Like</button>
+            <button class="feed-action"><span class="icon">💬</span> Comment</button>
+            <button class="feed-action"><span class="icon">↗️</span> Share</button>
+          </div>
+        </div>
+
+        <!-- Post 9 -->
+        <div class="feed-post fade-in-up delay-300">
+          <div class="post-header">
+            <img src="https://i.pravatar.cc/150?img=8" alt="Marcus Johnson" class="poster-img" />
+            <div class="poster-info">
+              <h4>Marcus Johnson</h4>
+              <p>Education @ OneGoal • 1w ago</p>
+            </div>
+            <button class="more-btn">•••</button>
+          </div>
+          <div class="post-content">
+            <p>So proud of my mentees for submitting their college applications this week! You guys are going to change
+              the world. 🎓🌟</p>
+          </div>
+          <div class="post-stats">
+            <span>❤️ 67 Likes</span>
+            <span>💬 14 Comments</span>
+          </div>
+          <div class="post-actions-bar">
+            <button class="feed-action"><span class="icon">👍</span> Like</button>
+            <button class="feed-action"><span class="icon">💬</span> Comment</button>
+            <button class="feed-action"><span class="icon">↗️</span> Share</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Right Sidebar: Suggestions -->
+    <aside class="sidebar-right">
+      <div class="suggestions-box">
+        <div class="suggestions-header">
+          <h3>Connect with Alumni</h3>
+        </div>
+
+        <div class="search-mini">
+          <input id="searchInput" type="text" placeholder="Search alumni..." />
+        </div>
+
+        <div class="suggestions-list" id="profiles">
+          <!-- Profile Items -->
+          <div class="suggestion-item" data-id="jordan">
+            <img src="https://i.pravatar.cc/150?img=32" alt="Jordan Daniels" />
+            <div class="suggestion-info">
+              <h4>Jordan Daniels</h4>
+              <p>Tech • Microsoft</p>
+            </div>
+            <button class="btn-icon" data-action="open" data-id="jordan" title="View Profile">➕</button>
+          </div>
+
+          <div class="suggestion-item" data-id="maria">
+            <img src="https://i.pravatar.cc/150?img=45" alt="Maria Lopez" />
+            <div class="suggestion-info">
+              <h4>Maria Lopez</h4>
+              <p>Healthcare • RN</p>
+            </div>
+            <button class="btn-icon" data-action="open" data-id="maria" title="View Profile">➕</button>
+          </div>
+
+          <div class="suggestion-item" data-id="devin">
+            <img src="https://i.pravatar.cc/150?img=12" alt="Devin Carter" />
+            <div class="suggestion-info">
+              <h4>Devin Carter</h4>
+              <p>Business • JPMorgan</p>
+            </div>
+            <button class="btn-icon" data-action="open" data-id="devin" title="View Profile">➕</button>
+          </div>
+
+          <div class="suggestion-item" data-id="aisha">
+            <img src="https://i.pravatar.cc/150?img=22" alt="Aisha Thompson" />
+            <div class="suggestion-info">
+              <h4>Aisha Thompson</h4>
+              <p>Engineering • Argonne</p>
+            </div>
+            <button class="btn-icon" data-action="open" data-id="aisha" title="View Profile">➕</button>
+          </div>
+
+          <div class="suggestion-item" data-id="malik">
+            <img src="https://i.pravatar.cc/150?img=1" alt="Malik Robinson" />
+            <div class="suggestion-info">
+              <h4>Malik Robinson</h4>
+              <p>Finance • Analyst</p>
+            </div>
+            <button class="btn-icon" data-action="open" data-id="malik" title="View Profile">➕</button>
+          </div>
+
+          <div class="suggestion-item" data-id="sofia">
+            <img src="https://i.pravatar.cc/150?img=65" alt="Sofia Martinez" />
+            <div class="suggestion-info">
+              <h4>Sofia Martinez</h4>
+              <p>Social Work • LSW</p>
+            </div>
+            <button class="btn-icon" data-action="open" data-id="sofia" title="View Profile">➕</button>
+          </div>
+
+          <div class="suggestion-item" data-id="ethan">
+            <img src="https://i.pravatar.cc/150?img=15" alt="Ethan Walker" />
+            <div class="suggestion-info">
+              <h4>Ethan Walker</h4>
+              <p>Engineering • Tesla</p>
+            </div>
+            <button class="btn-icon" data-action="open" data-id="ethan" title="View Profile">➕</button>
+          </div>
+
+          <div class="suggestion-item" data-id="jade">
+            <img src="https://i.pravatar.cc/150?img=14" alt="Jade Williams" />
+            <div class="suggestion-info">
+              <h4>Jade Williams</h4>
+              <p>Psychology • Research</p>
+            </div>
+            <button class="btn-icon" data-action="open" data-id="jade" title="View Profile">➕</button>
+          </div>
+
+        </div>
+        <a href="#" class="view-all-link">View all recommendations</a>
+      </div>
+    </aside>
+  </main>
+
+  <!-- MODALS -->
+  <div id="modal-jordan" class="modal" data-id="jordan" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-labelledby="jordan-title">
+      <span class="close-modal" data-action="close" aria-label="Close modal">&times;</span>
+      <h2 id="jordan-title">Jordan Daniels</h2>
+      <p>Jordan is a Software Engineer at Microsoft with a B.S. in Computer Science from the University of Illinois
+        Urbana-Champaign. A OneGoal alum, he mentors aspiring engineers through coding workshops and career guidance.
+      </p>
+      <a class="btn btn-primary connect-btn" href="#">Request a Connect</a>
+    </div>
+  </div>
+
+  <div id="modal-maria" class="modal" data-id="maria" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-labelledby="maria-title">
+      <span class="close-modal" data-action="close" aria-label="Close modal">&times;</span>
+      <h2 id="maria-title">Maria Lopez</h2>
+      <p>Maria is a Registered Nurse at Northwestern Memorial Hospital with a B.S. in Nursing from DePaul University.
+        She mentors students interested in healthcare careers and supports college and clinical pathway planning.</p>
+      <a class="btn btn-primary connect-btn" href="#">Request a Connect</a>
+    </div>
+  </div>
+
+  <div id="modal-devin" class="modal" data-id="devin" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-labelledby="devin-title">
+      <span class="close-modal" data-action="close" aria-label="Close modal">&times;</span>
+      <h2 id="devin-title">Devin Carter</h2>
+      <p>Devin is a Business Analyst at JPMorgan Chase and holds a degree from Loyola University Chicago. He focuses on
+        financial literacy, internship preparation, and pathways into business careers.</p>
+      <a class="btn btn-primary connect-btn" href="#">Request a Connect</a>
+    </div>
+  </div>
+
+  <div id="modal-aisha" class="modal" data-id="aisha" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-labelledby="aisha-title">
+      <span class="close-modal" data-action="close" aria-label="Close modal">&times;</span>
+      <h2 id="aisha-title">Aisha Thompson</h2>
+      <p>Aisha is a STEM researcher at Argonne National Laboratory with a degree in Mechanical Engineering. She leads
+        robotics mentorship programs and inspires students to pursue engineering and research careers.</p>
+      <a class="btn btn-primary connect-btn" href="#">Request a Connect</a>
+    </div>
+  </div>
+
+  <div id="modal-malik" class="modal" data-id="malik" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-labelledby="malik-title">
+      <span class="close-modal" data-action="close" aria-label="Close modal">&times;</span>
+      <h2 id="malik-title">Malik Robinson</h2>
+      <p>Malik is a Financial Analyst at JPMorgan Chase and a University of Michigan alum. He advises students on
+        finance careers, internships, and practical money-management skills.</p>
+      <a class="btn btn-primary connect-btn" href="#">Request a Connect</a>
+    </div>
+  </div>
+
+  <div id="modal-sofia" class="modal" data-id="sofia" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-labelledby="sofia-title">
+      <span class="close-modal" data-action="close" aria-label="Close modal">&times;</span>
+      <h2 id="sofia-title">Sofia Martinez</h2>
+      <p>Sofia is a Licensed Social Worker (UW–Madison) specializing in community mental health. She mentors students
+        pursuing social impact careers and helps with certification pathways.</p>
+      <a class="btn btn-primary connect-btn" href="#">Request a Connect</a>
+    </div>
+  </div>
+
+  <div id="modal-ethan" class="modal" data-id="ethan" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-labelledby="ethan-title">
+      <span class="close-modal" data-action="close" aria-label="Close modal">&times;</span>
+      <h2 id="ethan-title">Ethan Walker</h2>
+      <p>Ethan is a Product Engineer at Tesla (Purdue alumnus). He supports students exploring STEM careers, hands-on
+        engineering projects, and competitive internships.</p>
+      <a class="btn btn-primary connect-btn" href="#">Request a Connect</a>
+    </div>
+  </div>
+
+  <div id="modal-jade" class="modal" data-id="jade" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-labelledby="jade-title">
+      <span class="close-modal" data-action="close" aria-label="Close modal">&times;</span>
+      <h2 id="jade-title">Jade Williams</h2>
+      <p>Jade is a Cognitive Research Assistant with a psychology background (University of Minnesota). She supports
+        students interested in psychology, behavioral science, and neuroscience pathways.</p>
+      <a class="btn btn-primary connect-btn" href="#">Request a Connect</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
