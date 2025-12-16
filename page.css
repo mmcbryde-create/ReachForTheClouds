@@ -1,0 +1,78 @@
+
+.sources a:hover {
+  text-decoration: underline;
+}
+.profiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.profile-card {
+  text-align: center;
+  background: #ffffff;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+
+.profile-card img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+
+.profile-card button {
+  margin-top: 10px;
+  background: #ff5a3c;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+/* MODAL STYLING */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.modal-content {
+  background: white;
+  padding: 25px;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.connect-btn {
+  display: inline-block;
+  margin-top: 18px;
+  background: #ff5a3c;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 700;
+}
+.connect-btn:hover {
+  background: #e14b33;
+}

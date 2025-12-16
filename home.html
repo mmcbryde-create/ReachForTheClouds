@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>OneGoal — Recreation</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Preload fonts for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header role="banner" aria-label="Main header">
+    <div class="brand">
+      <div class="cap" aria-hidden="true">🎓</div>
+      <div>OneGoal.</div>
+    </div>
+
+    <div class="menu-toggle">☰</div>
+
+    <nav class="nav">
+      <a class="nav-link" href="home.html">Home</a>
+      <a class="nav-link" href="student.html">For Students</a>
+      <a class="nav-link" href="alumni.html">Alumni Connect</a>
+      <a class="nav-link" href="https://www.onegoal.org/join-us/nyt-communities-fund/">Join Us</a>
+
+      <!-- Mobile only buttons (visible when menu is open on small screens) -->
+      <div class="nav-right" style="display: contents;">
+        <a class="nav-link" href="login.html">Login</a>
+        <a class="btn btn-primary" href="https://fundraise.givesmart.com/form/88WX6g?vid=1n4abt">Donate</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" role="region" aria-label="Hero — For All Students">
+      <div class="hero-bg"></div>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-inner fade-in-up">
+        <div class="eyebrow" id="rotating-text" style="transition: opacity 0.5s ease;">OneGoal is here</div>
+        <h1 class="big-title">For All Students</h1>
+
+        <div class="cta-box" role="group" aria-label="Main CTA">
+          <a href="student.html" aria-label="The Opportunity Gap button">Reach For The Clouds</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="section-padding" aria-labelledby="stories-heading">
+      <h2 id="stories-heading" class="section-title fade-in-up">Student Stories & Testimonials</h2>
+      <p class="section-subtitle fade-in-up delay-100">
+        Real OneGoal Fellows share how OneGoal helped them plan, persist, and succeed.
+      </p>
+
+      <div class="testimonials-grid">
+        <div class="quote-card fade-in-up delay-200">
+          <p class="quote-text">“I was part of OneGoal’s class and it helped me map a path to college and beyond.”</p>
+          <small class="quote-author">— Evelyn Ruiz (OneGoal alum)</small>
+        </div>
+
+        <div class="quote-card fade-in-up delay-300">
+          <p class="quote-text">"I chose a vocational path with support from OneGoal rather than immediate college — a
+            thoughtful, affordable plan."</p>
+          <small class="quote-author">— Makayla Ransom (OneGoal Fellow)</small>
+        </div>
+
+
+        <div class="quote-card fade-in-up delay-300">
+          <p class="quote-text">"OneGoal has been a game-changer for me. It has helped me plan for my future and given
+            me the confidence to pursue my dreams."</p>
+          <small class="quote-author">— Maceo McBryde (OneGoal Fellow)</small>
+        </div>
+
+        <div class="quote-card fade-in-up delay-300">
+          <p class="quote-text">"I chose to go to college with OneGoal's support and they helped me plan for my future."
+          </p>
+          <small class="quote-author">— Kells One (OneGoal Fellow)</small>
+        </div>
+      </div>
+
+      <div style="margin-top: 48px; text-align: center;" class="fade-in-up delay-300">
+        <a class="btn btn-outline" href="https://www.onegoal.org/blog/" style="margin: 0 10px;">OneGoal Blog</a>
+        <a class="btn btn-primary" href="student.html" style="margin: 0 10px;">Get Support</a>
+        <a class="btn btn-outline" href="alumni.html" style="margin: 0 10px;">Find a Mentor</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

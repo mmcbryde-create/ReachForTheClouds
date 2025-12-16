@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>OneGoal — Study Support</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header role="banner" aria-label="Main header">
+    <div class="brand">
+      <div class="cap" aria-hidden="true">🎓</div>
+      <div>OneGoal.</div>
+    </div>
+
+    <div class="menu-toggle">☰</div>
+
+    <nav class="nav">
+      <a class="nav-link" href="home.html">Home</a>
+      <a class="nav-link" href="student.html">For Students</a>
+      <a class="nav-link" href="alumni.html">Alumni Connect</a>
+      <a class="nav-link" href="https://www.onegoal.org/join-us/nyt-communities-fund/">Join Us</a>
+
+      <div class="nav-right" style="display: contents;">
+        <a class="nav-link" href="login.html">Login</a>
+        <a class="btn btn-primary" href="https://fundraise.givesmart.com/form/88WX6g?vid=1n4abt">Donate</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section-padding" style="padding-top: 120px; text-align: center;">
+      <h1 class="section-title fade-in-up">Study Support Request</h1>
+      <p class="section-subtitle fade-in-up delay-100">
+        Tell us what you need help with — we'll build a customized lesson plan just for you.
+      </p>
+
+      <div class="form-wrapper fade-in-up delay-200">
+        <div class="form-card">
+          <h2 style="margin-bottom: 10px;">Student Information</h2>
+          <p style="margin-bottom: 30px; color: var(--muted);">Fill out as much detail as possible so we can personalize
+            your study plan.</p>
+
+          <form action="https://formspree.io/f/xqaoqzyr" method="POST" id="supportForm" novalidate>
+
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input id="name" name="name" type="text" placeholder="Your full name" required>
+              <div class="error-msg">Please enter your name.</div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required>
+              <div class="error-msg">Please enter a valid email address.</div>
+            </div>
+
+            <div class="form-group">
+              <label for="grade">Grade Level</label>
+              <select id="grade" name="grade" required>
+                <option value="">Select grade...</option>
+                <option>9th Grade</option>
+                <option>10th Grade</option>
+                <option>11th Grade</option>
+                <option>12th Grade</option>
+                <option>College Freshman</option>
+                <option>College Sophomore</option>
+                <option>Other</option>
+              </select>
+              <div class="error-msg">Please select your grade level.</div>
+            </div>
+
+            <div class="form-group">
+              <label for="subjects">What subjects do you want help with?</label>
+              <textarea id="subjects" name="subjects"
+                placeholder="Examples: Algebra, Reading Comprehension, Biology, Writing..." required></textarea>
+              <div class="error-msg">Please list at least one subject.</div>
+            </div>
+
+            <div class="form-group">
+              <label for="learning_style">What type of learner are you?</label>
+              <textarea id="learning_style" name="learning_style"
+                placeholder="Examples: visual, auditory, hands-on, mixed..."></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="challenges">Describe the challenges you're facing</label>
+              <textarea id="challenges" name="challenges"
+                placeholder="Where do you get stuck? What confuses you?"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="goals">Study Goal</label>
+              <textarea id="goals" name="goals"
+                placeholder="Examples: raise my grade, pass a test, understand material..."></textarea>
+            </div>
+
+            <div style="margin-top: 30px; display: flex; gap: 16px; flex-wrap: wrap;">
+              <button class="btn btn-primary" type="submit" style="flex: 1;">Submit Study Request</button>
+              <a class="btn btn-outline" href="home.html" style="flex: 1;">Back to Home</a>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- SUCCESS MODAL -->
+  <div id="successModal" class="modal">
+    <div class="modal-content" style="text-align: center;">
+      <h3 style="font-size: 24px; margin-bottom: 16px; color: #28a745;">Request Sent!</h3>
+      <p style="margin-bottom: 24px;">Your study request has been successfully submitted. We'll be in touch shortly.</p>
+      <a class="btn btn-primary" href="home.html">Go to Home</a>
+    </div>
+  </div>
+
+  <footer style="text-align: center; padding: 40px; color: var(--muted); font-size: 14px;">
+    OneGoal — Support for every student's journey.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
